@@ -185,3 +185,21 @@ section p{
     }
 
 }
+@media (max-width: 30em) {
+    .linkCont {
+        margin: 0.3em;
+    }
+    .exp .descr {
+        margin-left: 2em;
+        width: 11em;
+    }
+    #contact .descr {
+        margin-left: 3em;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+        #contact .descr a{
+            font-size: 1.2em;
+        }
+}
