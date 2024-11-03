@@ -186,6 +186,9 @@ section p{
 
 }
 @media (max-width: 30em) {
+    header {
+        top: 1em;
+    }
     .linkCont {
         margin: 0.3em;
     }
@@ -196,10 +199,11 @@ section p{
     #contact .descr {
         margin-left: 3em;
         display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
+        flex-direction: row;
+        justify-content:end;
+        align-items:center;
     }
-        #contact .descr a{
-            font-size: 1.2em;
-        }
+    #contact .descr a{
+        font-size: 1.1em;
+    }
 }
